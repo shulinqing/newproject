@@ -1,30 +1,16 @@
 ---
-title: "myfile"
+title: "Data Analysis Project Outline"
 author: "Shulin Qing"
-date: "August 30, 2017"
+date: "September 10, 2017"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+**Option 3**: The goal is to find the most common skills that employers look for, the most unique skills that employers look for and the types of companies that employ the most data scientists. I will perform an analysis of “data scientist” jobs listed on job boards and on the employment pages of major companies. 
+My data analysis plan:  
+1. Define the question and goal (already defined)  
+2. Define the ideal data set by determing data sources: I will obtain data from Linkedin, Indeed, PortTriton and Handshake.  
+3. Clean the data: I will use my data management skill sets to clean the data and keep concise information in the collected data.     
+4. Exploratory data analysis  
+5. Statistical prediction/modeling: because the goal is to find the most common skills and the most unique skills that employers look for, I'll first make a summary of data set and rank the number of times that a specific skill is asked by a recruiting company. In order to find the types of companies that employ the most data scientists. I'll first define company categories and count the number of data scientists that they are looking for.Based on these information, a proper moderl will be proposed.
+6. Interpret results  
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
